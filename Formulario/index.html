@@ -1,0 +1,89 @@
+/// Aaron///
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Registro de Usuario</h1>
+    <nav>
+        <a href="#registro">Registro</a>
+        <a href="#contacto">Contacto</a>
+        <button type="submit" form="formulario">Registrarse</button>
+    </nav>
+</header>
+
+<main>
+<form id="formulario">
+
+<section id="registro">
+    <h2>Información Personal y de Cuenta</h2>
+
+    <label>Nombre:</label>
+    <input type="text" required>
+
+    <label>Apellido:</label>
+    <input type="text" required>
+
+    <label>Fecha de Nacimiento:</label>
+    <input type="date" required>
+
+    <label>Género:</label>
+    <div class="radios">
+        <input type="radio" name="genero" required> Masculino
+        <input type="radio" name="genero"> Femenino
+        <input type="radio" name="genero"> Otro
+    </div>
+
+    <label>Nombre de Usuario:</label>
+    <input type="text" required>
+
+    <label>Contraseña:</label>
+    <input type="password" required>
+
+    <label>Confirmación de Contraseña:</label>
+    <input type="password" required>
+</section>
+
+<section id="contacto">
+    <h2>Contacto y Preferencias</h2>
+
+    <label>Correo Electrónico:</label>
+    <input type="email" required>
+
+    <label>Número de Teléfono:</label>
+    <input type="tel" required>
+
+    <label>Dirección:</label>
+    <textarea></textarea>
+
+    <label>Color Favorito:</label>
+    <select>
+        <option>Verde</option>
+        <option>Negro</option>
+        <option>Morado</option>
+        <option>Azul</option>
+    </select>
+
+    <label class="check">
+        <input type="checkbox" required>
+        Acepto los Términos y Condiciones
+    </label>
+
+    <button type="submit">Crear cuenta</button>
+</section>
+
+</form>
+</main>
+
+<footer>
+    <p>© 2026 Registro de Usuario</p>
+</footer>
+
+</body>
+</html>
